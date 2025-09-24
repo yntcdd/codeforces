@@ -12,7 +12,7 @@ int main() {
     cin >> players;
 
     
-    for (int i = 0; i < players.size(); i++) {
+    for (int i = 0; i < players.size(); i++) { 
         if (players[i] == players[i + 1]) {
             counter++;
             if (counter >= 7) {
