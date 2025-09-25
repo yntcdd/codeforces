@@ -6,12 +6,10 @@ using namespace std;
 int main() {
 
     string players;
-    
     int counter = 1;
     string dangerous = "NO";
 
     cin >> players;
-
     
     for (int i = 0; i < players.size(); i++) { 
         if (players[i] == players[i + 1]) {
