@@ -2,7 +2,6 @@
 
 using namespace std;
 
-//nodemon --watch 546A.cpp -e cpp -x "g++ 546A.cpp -o main && ./main"   
 
 int main() {
     int first;
