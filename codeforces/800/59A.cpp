@@ -2,7 +2,6 @@
 #include <string>
 
 using namespace std;
-//nodemon --watch 59A.cpp -e cpp -x "g++ 59A.cpp -o main && ./main"   
 
 int main() {
     string word;
