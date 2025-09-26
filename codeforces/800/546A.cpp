@@ -18,7 +18,11 @@ int main() {
         money += first * i;
     }
 
-    cout << money - initial;
+    if (money > initial) {
+        cout << money - initial;
+    } else {
+        cout << 0;
+    }
 
     return 0;
 }
