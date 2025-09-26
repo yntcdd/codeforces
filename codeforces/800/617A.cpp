@@ -2,8 +2,6 @@
 
 using namespace std;
 
-//nodemon --watch 617A.cpp -e cpp -x "g++ 617A.cpp -o main && ./main"   
-
 int main() {
     int steps;
     cin >> steps;
