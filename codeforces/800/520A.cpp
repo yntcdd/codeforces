@@ -20,7 +20,7 @@ int main() {
     for (char ch : word) {
         letters.insert(toupper(ch));
     }
-
+    
     if (letters.size() == 26) cout << "YES\n";
     else cout << "NO\n";
 
