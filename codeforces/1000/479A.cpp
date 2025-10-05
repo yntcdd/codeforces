@@ -11,6 +11,8 @@ int main(){
         cout << a * b * c;
     } else if (a == 1 && b == 1 && c == 1) {
         cout << a + b + c;
+    } else if (a == 1 && b != 1 && c == 1) {
+        cout << a + b + c;
     } else if (a == 1) {
         cout << (a + b) * c;
     } else if (c == 1) {
