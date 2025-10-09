@@ -8,10 +8,10 @@ int main() {
     int n, m;
 
     cin >> n >> m;
+    bool which = true;
 
     for (int i = 0; i < n; i++) {
         string row;
-        bool which = true;
         if (i % 2 == 0) {
             for (int i = 0; i < m; i++) {
                 row += '#';
@@ -28,8 +28,9 @@ int main() {
                 for (int i = 0; i < m - 1; i++) {
                     row += '.';
                 }
+                which = true;
             }
-        }
+        } 
         cout << row << endl;
     }
 
