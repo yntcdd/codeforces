@@ -18,7 +18,7 @@ int main() {
     for (int i = k; i < n; i++) {
         sum += a[i] - a[i - k];  // slide window
         if (sum < bestSum) {  
-            bestSum = sum;
+            bestSum = sum;  
             bestIndex = i - k + 1;
         }
     }
