@@ -13,9 +13,10 @@ int main() {
             m += 1;
         }
         steps++;
-    }
+    } 
     steps += (n - m);
 
     cout << steps << "\n";
     return 0;
 }
+
