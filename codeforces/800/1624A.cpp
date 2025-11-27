@@ -1,5 +1,3 @@
-nodemon --watch 677A.cpp -e cpp -x "g++ 677A.cpp -o main && ./main"   
-
 #include <iostream>
 
 using namespace std;
