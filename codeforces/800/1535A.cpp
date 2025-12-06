@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-// check
+    
     int t;
     cin >> t;
 
