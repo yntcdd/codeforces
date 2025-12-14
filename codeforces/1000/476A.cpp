@@ -11,7 +11,7 @@ int main() {
         if (k % m == 0) {
             cout << k << "\n";
             return 0;
-        }
+        } 
         k++;
     }
 
