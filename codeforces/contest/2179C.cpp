@@ -8,10 +8,10 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        int a[n] = {};
+        long long a[n] = {};
 
-        int smallest = 100000000;
-        int secondsmallest = 100000000;
+        long long smallest = 10000000000;
+        long long secondsmallest = 10000000000;
         for (int i = 0; i < n; i++) {
             cin >> a[i];
             smallest = min(smallest, a[i]);
