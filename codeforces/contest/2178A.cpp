@@ -12,15 +12,14 @@ int main() {
         string s;
         cin >> s;
         
-        bool two = false;
+        int ys = 0;
         for (int i = 0; i < s.size(); i++) {
-            if (s[i] == 'Y' && s[i + 1] == 'Y') {
-                two = true;
-                break;
+            if (s[i] == 'Y') {
+                ys++;
             }
         }
         
-        if (two) {
+        if (ys >= 2) {
             cout << "NO" << endl;
         } else {
             cout << "YES" << endl;
