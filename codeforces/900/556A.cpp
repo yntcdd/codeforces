@@ -13,7 +13,7 @@ int main(){
     int count0 = 0, count1 = 0;
     for(char c : s){
         if(c == '0') count0++;
-        else if(c == '1') count1++;
+        else if(c == '1') count1++; 
     }
 
     // The minimum length of the string after removals:
