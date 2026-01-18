@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+ 
 int main() {
 
     int t;
@@ -22,7 +22,7 @@ int main() {
             cin >> c[i];
         }
         
-        
+
     }
 
     return 0;
