@@ -1,17 +1,2 @@
 nodemon --watch 2178B.cpp -e cpp -x "g++ 2178B.cpp -o main && ./main"   
 
-#include <iostream>
-
-using namespace std;
-
-int main() {
-
-    int t;
-    cin >> t;
-
-    while (t--) {
-
-    }    
-
-    return 0;
-}
