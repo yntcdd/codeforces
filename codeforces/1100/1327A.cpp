@@ -8,7 +8,7 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        long long n, k;Sum of Odd Integers
+        long long n, k;
         cin >> n >> k;
 
         if (k * k <= n && (n % 2 == k % 2))
