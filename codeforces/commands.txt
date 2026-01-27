@@ -6,10 +6,10 @@ using namespace std;
 
 int main() {
 
-    int t;
-    cin >> t;
+    int T;
+    cin >> T;
 
-    while (t--) {
+    while (T--) {
 
     }    
 
