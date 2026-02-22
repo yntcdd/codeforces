@@ -1,6 +1,6 @@
 nodemon --watch 2178B.cpp -e cpp -x "g++ 2178B.cpp -o main && ./main"   
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
