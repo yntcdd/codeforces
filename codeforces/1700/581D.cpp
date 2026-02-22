@@ -49,7 +49,7 @@ void solve(void) {
 	if (b.x + c.x == a.x && c.y == remaining_y && b.y == remaining_y) {
 		cout << a.x << "\n";
 		a.print();
-
+ 
 		for (int i = 0; i < b.y; i++) {
 			for (int j = 0; j < b.x; j++) cout << b.ch;
 			for (int j = 0; j < c.x; j++) cout << c.ch;
