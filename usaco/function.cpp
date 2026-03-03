@@ -26,7 +26,7 @@ void solve() {
             all_01 = false;
             break;
         }
-    }
+    } 
     
     long long ans = 0;
     
