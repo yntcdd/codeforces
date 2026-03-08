@@ -1,4 +1,4 @@
-nodemon --watch 2178B.cpp -e cpp -x "g++ 2178B.cpp -o main && ./main"   
+nodemon --watch 499B.cpp -e cpp -x "g++ 499B.cpp -o main && ./main"   
 
 #include <bits/stdc++.h>
 
